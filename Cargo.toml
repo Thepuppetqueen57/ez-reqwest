@@ -1,0 +1,15 @@
+[package]
+name = "ez-reqwest"
+version = "0.1.0"
+edition = "2024"
+authors = ["Puppet <doggyandkira2013@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/Thepuppetqueen57/ez-reqwest"
+license-file = "LICENSE"
+keywords = ["easy", "requests", "web"]
+
+[dependencies]
+reqwest = "0.12.15"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt"] }
