@@ -10,7 +10,7 @@ license-file = "LICENSE"
 keywords = ["easy", "requests", "web"]
 
 [dependencies]
-reqwest = "0.12.15"
+reqwest = "0.12.20"
 
 [dev-dependencies]
-tokio = { version = "1", features = ["macros", "rt"] }
+tokio = { version = "1.45.1", features = ["macros", "rt"] }
